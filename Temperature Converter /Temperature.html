@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Temperature Converter</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Temperature Converter</h1>
+    <img src="img\logo.png" alt="Temperature Logo" >
+
+    <div class="temperature-converter">
+        <input type="number" id="numeric-value" placeholder="Enter a temperature">
+
+        <select id="temperature-scale">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+        </select>
+
+        <button type="button" onclick="convertTemperature()">Convert</button>
+
+        <label id="converted-temperature">Converted-Temperature</label>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
